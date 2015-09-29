@@ -1,0 +1,28 @@
+{
+  "name": "css-scale",
+  "version": "1.0.0",
+  "description": "Scalar CSS variables",
+  "main": "index.css",
+  "scripts": {
+    "deps:pkg": "ncu",
+    "deps:update": "ncu -a"
+  },
+  "repository": "yoshuawuyts/css-scale",
+  "keywords": [
+    "scale",
+    "base",
+    "variable",
+    "fast",
+    "sheetify",
+    "css"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-check-updates": "^2.2.3"
+  },
+  "files": [
+    "index.js",
+    "bin/*"
+  ]
+}
